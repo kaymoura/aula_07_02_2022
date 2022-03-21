@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<!-- Alinhar (Shift + Alt + F) -->
+
+<body>
+    <form>
+        <!--NOME-->
+        <label for="nome"><strong>Nome</strong></label>
+        <input type="text" name="nome" size="30" maxlength="5" required><br><br>
+        <!--maxlength é o maximo de caracteres-->
+
+        <!--LOGIN-->
+        <label for="login"><strong>Login</strong></label>
+        <input type="text" name="login" size="10" maxlength="8"><br><br>
+
+        <!--SENHA-->
+        <label for="senha"><strong>Senha</strong></label>
+        <input type="password" name="senha" maxlength="8"><br><br>
+
+        <!--COR-->
+        <label for="cor"><strong>Cor</strong></label>
+        <input type="color" name="cor"><br><br>
+
+        <!--DATA-->
+        <label for="data"><strong>Data</strong></label>
+        <input type="date" name="date"><br><br>
+
+        <!--SEMANA-->
+        <label for="semana"><strong>Semana</strong></label>
+        <input type="week" name="Semana"><br><br>
+
+        <!--MES-->
+        <label for="mes"><strong>Mês</strong></label>
+        <input type="month" name="mes"><br><br>
+
+        <!--HORA-->
+        <label for="hora"><strong>Hora</strong></label>
+        <input type="time" name="hora"><br><br>
+
+        <!--DATA HORA-->
+        <label for="datahora"><strong>Data Hora</strong></label>
+        <input type="datetime-local" name="datahora"><br><br>
+
+        <!--NUMERO-->
+        <label for="numero"><strong>Numero</strong></label>
+        <input type="number" name="numero"><br><br>
+
+        <!--TELEFONE-->
+        <label for="telefone"><strong>Telefone</strong></label>
+        <input type="tel" name="user"><br><br>
+
+        <!--ARQUIVO-->
+        <label for="arquivo"><strong>Arquivo</strong></label>
+        <input type="file" name="arquivo"><br><br>
+
+        <!--OPÇÕES/CHECKBOX-->
+        <label for="check"><strong>Escolha as opções</strong></label>
+        <input type="checkbox" name="esporte" value="futebol">
+        <label for="futebol"><strong>Futebol</strong></label>
+        <input type="checkbox" name="esporte" value="futevolei">
+        <label for="futevolei"><strong>Futvolei</strong></label>
+        <input type="checkbox" name="esporte" value="natacao">
+        <label for="natacao"><strong>Natação</strong></label> <br><br>
+
+        <!--ÚNICA OPÇÃO/RADIO-->
+        <label for="item"><strong>Item:</strong></label>
+        <input type="radio" name="item" value="Sim">
+        <label for="opSim"><strong>Sim</strong></label>
+        <input type="radio" name="item" value="Não">
+        <label for="opNão"><strong>Não</strong></label><br><br>
+        <!--Quando for ultilizar o recurso para uma Única opção os "name" devem se manter iguais-->
+
+        <!--SELEÇÃO DE UM DA LISTA-->
+        <label for="lista"><strong>Lista</strong></label>
+        <select name="Lista" id="">
+            <option value="">Opção 1</option>
+            <option value="">Opção 2</option>
+            <option value="">Opção 3</option>
+            <option value="">Opção 4</option>
+        </select> <br><br>
+
+        <!--CAIXA DE TEXTO-->
+        <label for="texto"><strong>Texto:</strong></label> <br>
+        <textarea name="texto" cols="50" rows="10"> Texto da Caixa de Formulário textarea</textarea><br>
+
+        <!--BOTÕES-->
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="Limpar">
+
+        <input type="button" value="JavaScript">
+
+
+    </form>
+</body>
+
+</html>
